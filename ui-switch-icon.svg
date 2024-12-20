@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Main Z shape in ZZZ style -->
+  <path d="M20 20 
+           L108 20 
+           L90 38
+           L108 56
+           L90 74
+           L40 74
+           L58 92
+           L40 108
+           L20 108
+           L38 90
+           L20 72
+           L38 54
+           L20 36
+           Z" 
+        fill="#1C2335"
+        stroke="#FFFFFF"
+        stroke-width="4"/>
+  
+  <!-- Inner detail lines suggesting UI elements in ZZZ's angular style -->
+  <path d="M45 35 L85 35" stroke="#E83868" stroke-width="4" stroke-linecap="square"/>
+  <path d="M55 47 L75 47" stroke="#E83868" stroke-width="4" stroke-linecap="square"/>
+  <path d="M60 82 L70 82" stroke="#3891E8" stroke-width="4" stroke-linecap="square"/>
+  <path d="M52 94 L78 94" stroke="#3891E8" stroke-width="4" stroke-linecap="square"/>
+  
+  <!-- Corner accents similar to ZZZ logo -->
+  <path d="M30 30 L40 30" stroke="#3891E8" stroke-width="4" stroke-linecap="square"/>
+  <path d="M88 98 L98 98" stroke="#E83868" stroke-width="4" stroke-linecap="square"/>
+</svg>
