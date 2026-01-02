@@ -144,7 +144,7 @@ namespace ZZZConfigManager
             int targetPlatform = mobileMode.Value == 1 ? 1 : 2;
             raw = Regex.Replace(
                 raw,
-                "(LocalUILayoutPlatform\")(\\s*:\\s*)(\\d+)",
+                "(LocalUILayoutPlatform\")(\\s*:\\s*)(-?\\d+)",
                 m => $"{m.Groups[1].Value}{m.Groups[2].Value}{targetPlatform}"
             );
 
